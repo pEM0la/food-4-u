@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+        <title>Food 4 U</title>
+        <div id="header">
+        <div class="logo">
+            <a class="nav-logo" href="/">
+                <img src="img/logo-removebg-preview.png" class="img-responsive" alt="logo">
+            </a>
+        </div>
+        <div id="login"></div>
+        <a href="login.html">
+            <div style="text-align: center;">
+            <img src="img/Login.png">
+            </a>
+            </div>
+        </div>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" type="text/javascript" defer></script>
+	</head>
+	<body>
+        <div id="slider"></div>
+        <div class="local">
+            <div aling="center"> <img src="img/f4u reserv.webp">
+        </div>
+<div class="reservación"></div>
+        <a href="reservación.html">
+            <img src="img/Reservar (3).png">
+        </a>
+        <div id="menú">
+          <img src="img/bakery-1868396.jpg" onmouseover="this.width=550;this.height=450;" onmouseout="this.width=400;this.height=300;" width="550" height="450"> 
+            <img src="img/bread-101636.jpg" onmouseover="this.width=550;this.height=450;" onmouseout="this.width=400;this.height=300;" width="550" height="450">
+        </div>
+            <div id="menú2">
+            <img src="img/pizza-2589575_1920.jpg" onmouseover="this.width=550;this.height=450;" onmouseout="this.width=400;this.height=300;" width="550" height="450"> 
+            <img src="img/coffee-4908764_1920.jpg" onmouseover="this.width=550;this.height=450;" onmouseout="this.width=400;this.height=300;" width="550" height="450"> 
+</div>
+
+<div class="tb">
+    <input class="radio" id="one" name="group" type="radio" checked>
+    <input class="radio" id="two" name="group" type="radio">
+    <input class="radio" id="three" name="group" type="radio">
+    <div class="tabs">
+    <label class="tab" id="one-tab" for="one">Misión</label>
+    <label class="tab" id="two-tab" for="two">Visión</label>
+    <label class="tab" id="three-tab" for="three">Valores</label>
+      </div>
+    <div class="panels">
+    <div class="panel" id="one-panel">
+      <p>Satisfacer las necesidades gastronómicas de nuestros clientes, ofreciendo
+        alimentos y servicios con la más alta calidad, donde se sobrepasen las
+        expectativas de nuestros clientes y ser un espacio de trabajo que permita la
+        realización personal y el Desarrollo de sus colaboradores en el grupo.</p>
+    </div>
+    <div class="panel" id="two-panel">
+      <p>Nuestra visión a futuro es ayudar a crear una localidad más saludable,
+        más consciente sobre su nutrición, y que nuestra ciudad tenga una opción
+        confiable y de bajo costo para comer bien, sin sacrificar el placer de comer.</p>
+    </div>
+    <div class="panel" id="three-panel">
+      <p>Honestidad</p>
+      <p>Confianza</p>
+      <p>Firmeza</p>
+      <p>Responsabilidad</p>
+      <p>Liderazgo</p>
+    </div>
+    </div>
+  </div>
+  <form class="form">
+    <h2>CONTACT US</h2>
+    <p type="Name:"><input placeholder="Write your name here.."></input></p>
+    <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+    <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+    <button>Send Message</button>
+    <div id="info">
+      <span class="fa fa-phone"></span>001 1023 567
+      <span class="fa fa-envelope-o"></span> contact@company.com
+    </div>
+  </form>
+  <div class="total-r">
+        <h1 class="titulo-r">Reloj</h1>
+        <h1 class="main_time" id="time"></h1>
+    </div>   
+    <div class="calendar">
+        <div class="calendar__info">
+            <div class="calendar__prev" id="prev-month">&#9664;</div>
+            <div class="calendar__month" id="month"></div>
+            <div class="calendar__year" id="year"></div>
+            <div class="calendar__next" id="next-month">&#9654;</div>
+        </div>
+    
+        <div class="calendar__week">
+            <div class="calendar__day calendar__item">Lunes</div>
+            <div class="calendar__day calendar__item">Martes</div>
+            <div class="calendar__day calendar__item">Miércoles</div>
+            <div class="calendar__day calendar__item">Jueves</div>
+            <div class="calendar__day calendar__item">Viernes</div>
+            <div class="calendar__day calendar__item">Sábado</div>
+            <div class="calendar__day calendar__item">Domingo</div>
+        </div>
+    
+        <div class="calendar__dates" id="dates"></div>
+    </div>
+    
+    <script src="js/script.js"></script>
+	</body>
+</html>
